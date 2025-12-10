@@ -6,12 +6,13 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "United States",
         coords: [39.8283, -98.5795],
-        image: "assets/m1_abrams_1765118350420.png",
+        image: "assets/m1_abrams_1765118350420.jpg",
         specs: { speed: "67 km/h", armament: "120mm M256", range: "426 km" },
         inService: 1980,
         users: ["United States", "Australia", "Egypt", "Iraq", "Kuwait", "Saudi Arabia"],
         status: "Active",
-        fact: "The M1 Abrams is powered by a 1,500 hp gas turbine engine, giving it exceptional acceleration and allowing it to run on multiple fuel types including jet fuel, diesel, and gasoline."
+        fact: "The M1 Abrams is powered by a 1,500 hp gas turbine engine, giving it exceptional acceleration and allowing it to run on multiple fuel types including jet fuel, diesel, and gasoline.",
+        imageCredit: "Photo: Spc. Matthew Marcellus / U.S. Army / Public Domain"
     },
     {
         id: 2,
@@ -19,12 +20,13 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "Germany",
         coords: [51.1657, 10.4515],
-        image: "assets/leopard2_1765118389229.png",
+        image: "assets/leopard2_17655118389229.jpg",
         specs: { speed: "72 km/h", armament: "120mm L/55", range: "500 km" },
         inService: 2014,
         users: ["Germany", "Hungary", "Qatar"],
         status: "Active",
-        fact: "The Leopard 2A7 features modular composite armor that can be quickly reconfigured for different threat environments, making it one of the most adaptable main battle tanks in service."
+        fact: "The Leopard 2A7 features modular composite armor that can be quickly reconfigured for different threat environments, making it one of the most adaptable main battle tanks in service.",
+        imageCredit: "Photo: Fric.matej / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 3,
@@ -32,12 +34,13 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "United Kingdom",
         coords: [55.3781, -3.4360],
-        image: "assets/challenger2_1765118413349.png",
+        image: "assets/challenger2_1765118411349.jpg",
         specs: { speed: "59 km/h", armament: "120mm L30A1", range: "450 km" },
         inService: 1998,
         users: ["United Kingdom", "Oman"],
         status: "Active",
-        fact: "Despite being deployed in combat extensively, only one Challenger 2 has been destroyed by enemy fire, showcasing its exceptional armor protection - the best of any NATO tank."
+        fact: "Despite being deployed in combat extensively, only one Challenger 2 has been destroyed by enemy fire, showcasing its exceptional armor protection - the best of any NATO tank.",
+        imageCredit: "Photo: Graeme Main/MOD / Wikimedia Commons / OGL v1.0"
     },
     {
         id: 4,
@@ -45,12 +48,13 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "Russia",
         coords: [61.5240, 105.3188],
-        image: "assets/t90_1765118367473.png",
+        image: "assets/t90_1765118367473.jpg",
         specs: { speed: "60 km/h", armament: "125mm 2A46M-5", range: "550 km" },
         inService: 2011,
         users: ["Russia", "India", "Algeria", "Iraq"],
         status: "Active",
-        fact: "The T-90MS features the Shtora-1 defensive suite, which can detect laser targeting and automatically deploy smoke grenades or jam incoming guided missiles."
+        fact: "The T-90MS features the Shtora-1 defensive suite, which can detect laser targeting and automatically deploy smoke grenades or jam incoming guided missiles.",
+        imageCredit: "Photo: Aleksey Kitaev / Wikimedia Commons / CC BY-SA 3.0"
     },
     {
         id: 5,
@@ -58,11 +62,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "Israel",
         coords: [31.0461, 34.8516],
-        image: "assets/merkava4_1765118431134.png",
+        image: "assets/merkava4_1765118431134.jpg",
         specs: { speed: "64 km/h", armament: "120mm MG253", range: "500 km" },
         inService: 2004,
         users: ["Israel"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: MathKnight and Zachi Evenor / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 6,
@@ -70,11 +75,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "China",
         coords: [35.8617, 104.1954],
-        image: "assets/type99a_tank.png",
+        image: "assets/type99a_tank.jpg",
         specs: { speed: "80 km/h", armament: "125mm ZPT-98", range: "600 km" },
         inService: 2011,
         users: ["China"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Tyg728 / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 7,
@@ -82,11 +88,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "South Korea",
         coords: [35.9078, 127.7669],
-        image: "assets/k2_black_panther.png",
+        image: "assets/k2_black_panther.jpg",
         specs: { speed: "70 km/h", armament: "120mm L/55", range: "450 km" },
         inService: 2014,
-        users: ["South Korea"],
-        status: "Active"
+        users: ["South Korea", "Poland"],
+        status: "Active",
+        imageCredit: "Photo: Staff Sgt. Matthew Foster / U.S. National Guard / Public Domain"
     },
     {
         id: 8,
@@ -94,11 +101,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "North Korea",
         coords: [39.0392, 125.7625],
-        image: "assets/pokpung_ho.png",
+        image: "assets/pokpung_ho.jpg",
         specs: { speed: "60 km/h", armament: "125mm smoothbore", range: "300 km" },
         inService: 2002,
         users: ["North Korea"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Stefan Krasowski / Flickr / CC BY 2.0"
     },
     {
         id: 9,
@@ -106,11 +114,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "Iran",
         coords: [32.4279, 53.6880],
-        image: "assets/zulfiqar_3.png",
+        image: "assets/zulfiqar_3.jpg",
         specs: { speed: "70 km/h", armament: "125mm smoothbore", range: "450 km" },
         inService: 2016,
         users: ["Iran"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: M-ATF / military.ir / CC BY-SA 3.0"
     },
     {
         id: 10,
@@ -118,11 +127,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "India",
         coords: [20.5937, 78.9629],
-        image: "assets/arjun_mk2.png",
+        image: "assets/arjun_mk2.jpg",
         specs: { speed: "58 km/h", armament: "120mm rifled gun", range: "450 km" },
         inService: 2014,
         users: ["India"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Anirvan Shukla / Wikimedia Commons / CC BY-SA 3.0"
     },
     {
         id: 11,
@@ -130,11 +140,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "France",
         coords: [46.2276, 2.2137],
-        image: "assets/leclerc.png",
+        image: "assets/leclerc.jpg",
         specs: { speed: "72 km/h", armament: "120mm CN120-26", range: "550 km" },
         inService: 1992,
         users: ["France", "UAE", "Jordan"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Daniel Steger / OpenPhoto.net / CC BY-SA 2.5"
     },
     {
         id: 12,
@@ -142,11 +153,12 @@ window.equipmentData = [
         type: "Main Battle Tank",
         origin: "Japan",
         coords: [36.2048, 138.2529],
-        image: "assets/type_10.png",
+        image: "assets/type_10.jpg",
         specs: { speed: "70 km/h", armament: "120mm L/44", range: "440 km" },
         inService: 2012,
         users: ["Japan"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: TGoto / Wikimedia Commons / Public Domain"
     },
 
     // === FIGHTER AIRCRAFT ===
@@ -156,11 +168,12 @@ window.equipmentData = [
         type: "Fighter Aircraft",
         origin: "United States",
         coords: [38.8814, -77.0365],
-        image: "assets/f35_1765118455699.png",
+        image: "assets/f35.jpg",
         specs: { speed: "Mach 1.6", armament: "AIM-120, GBU-31", range: "2,200 km" },
         inService: 2015,
         users: ["United States", "UK", "Italy", "Netherlands", "Australia", "Norway", "Japan", "Israel", "South Korea"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Noah Wulf / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 14,
@@ -168,11 +181,12 @@ window.equipmentData = [
         type: "Fighter Aircraft",
         origin: "Sweden",
         coords: [60.1282, 18.6435],
-        image: "assets/gripen_1765118486549.png",
+        image: "assets/gripen_1765118486549.jpg",
         specs: { speed: "Mach 2", armament: "Meteor, RBS-15", range: "3,200 km" },
         inService: 2019,
-        users: ["Sweden", "Brazil"],
-        status: "Active"
+        users: ["Sweden", "Brazil", "South Africa", "Thailand", "Czech Republic", "Hungary", "Colombia", "Ukraine"],
+        status: "Active",
+        imageCredit: "Photo: Milan Nykodym / Wikimedia Commons / CC BY-SA 2.0"
     },
     {
         id: 15,
@@ -193,11 +207,12 @@ window.equipmentData = [
         type: "Fighter Aircraft",
         origin: "Russia",
         coords: [56.3269, 44.0059],
-        image: "assets/su57_felon.png",
+        image: "assets/su57_felon.jpg",
         specs: { speed: "Mach 2", armament: "R-77M, Kh-59MK2", range: "3,500 km" },
         inService: 2020,
         users: ["Russia"],
-        status: "Active - Limited Production"
+        status: "Active - Limited Production",
+        imageCredit: "Photo: Anna Zvereva / Flickr / CC BY-SA 2.0"
     },
     {
         id: 17,
@@ -279,11 +294,12 @@ window.equipmentData = [
         type: "Naval Vessel",
         origin: "United States",
         coords: [36.9466, -76.3130],
-        image: "assets/uss_ford_carrier.png",
+        image: "assets/uss_ford_carrier.jpg",
         specs: { speed: "56+ km/h", armament: "75+ Aircraft", range: "Unlimited (Nuclear)" },
         inService: 2017,
         users: ["United States Navy"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Mass Communication Specialist 2nd Class Ridge Leoni / U.S. Navy / Public Domain"
     },
     {
         id: 24,
@@ -341,11 +357,12 @@ window.equipmentData = [
         type: "Air Defense System",
         origin: "Russia",
         coords: [55.7558, 37.6173],
-        image: "assets/s400_1765118527696.png",
+        image: "assets/s400_1765118527696.jpg",
         specs: { speed: "Static", armament: "40N6 Missiles", range: "400 km" },
         inService: 2007,
         users: ["Russia", "China", "Turkey", "India", "Belarus"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Vitaly V. Kuzmin / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 29,
@@ -403,11 +420,12 @@ window.equipmentData = [
         type: "Artillery",
         origin: "France",
         coords: [48.8566, 2.3522],
-        image: "assets/caesar_1765118550941.png",
+        image: "assets/caesar_1765118550941.jpg",
         specs: { speed: "100 km/h", armament: "155mm L/52", range: "42 km" },
         inService: 2008,
         users: ["France", "Denmark", "Czech Republic", "Ukraine", "Indonesia"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Markus Rauchenberger / U.S. Army / Public Domain"
     },
     {
         id: 34,
@@ -465,11 +483,12 @@ window.equipmentData = [
         type: "Combat Drone",
         origin: "Turkey",
         coords: [38.9637, 35.2433],
-        image: "assets/bayraktar_1765118506987.png",
+        image: "assets/bayraktar_1765118506987.jpg",
         specs: { speed: "220 km/h", armament: "MAM-L, MAM-C", range: "150 km" },
         inService: 2014,
         users: ["Turkey", "Ukraine", "Azerbaijan", "Libya", "Poland"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: Bayhaluk / Wikimedia Commons / CC BY-SA 4.0"
     },
     {
         id: 39,
@@ -515,11 +534,12 @@ window.equipmentData = [
         type: "Assault Rifle",
         origin: "United States",
         coords: [41.4925, -72.8231],
-        image: "assets/m4a1_carbine.png",
+        image: "assets/m4a1_carbine.jpg",
         specs: { speed: "N/A", armament: "5.56x45mm NATO", range: "500 m" },
         inService: 1994,
         users: ["United States", "NATO allies", "80+ countries worldwide"],
-        status: "Active"
+        status: "Active",
+        imageCredit: "Photo: PEO Soldier / Derivative: MathKnight / Wikimedia Commons / Public Domain"
     },
     {
         id: 43,
