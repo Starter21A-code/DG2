@@ -1,5 +1,5 @@
 // Defence Guesser Service Worker
-const CACHE_NAME = 'defence-guesser-v1';
+const CACHE_NAME = 'defence-guesser-v2';
 
 // Files to cache for offline use
 const urlsToCache = [
@@ -145,3 +145,4 @@ self.addEventListener('message', event => {
         self.skipWaiting();
     }
 });
+
